@@ -1,0 +1,102 @@
+/* NAVBAR CONTAINER */
+.nav {
+  background: white;
+  padding: 12px 20px;
+  border-bottom: 2px solid #e0f2f1;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+/* LEFT SIDE */
+.nav-left {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* LOGO */
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+  color: #00796b;
+  text-decoration: none;
+}
+
+/* DESKTOP NAV LINKS */
+.links-desktop {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+/* NAV LINKS */
+.nav-link {
+  text-decoration: none;
+  color: #004d40;
+  font-weight: 500;
+  padding: 6px 8px;
+  transition: 0.2s;
+}
+
+.nav-link:hover {
+  color: #009688;
+}
+
+/* USER SECTION */
+.user-section {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.username {
+  color: #00695c;
+}
+
+.logout-btn {
+  background: #009688;
+  border: none;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+/* HAMBURGER MENU (mobile only) */
+.hamburger {
+  display: none;
+  font-size: 26px;
+  cursor: pointer;
+  color: #00796b;
+}
+
+/* MOBILE MENU */
+.mobile-menu {
+  background: #e0f2f1;
+  margin-top: 8px;
+  padding: 15px;
+  border-radius: 10px;
+  animation: slideDown 0.3s ease-out;
+}
+
+.links-mobile {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+/* ------------------- RESPONSIVE BREAKPOINTS ------------------- */
+
+@media (max-width: 780px) {
+
+  /* SHOW HAMBURGER */
+  .hamburger {
+    display: block;
+  }
+
+  /* HIDE DESKTOP LINKS */
+  .desktop-only {
+    display: none;
+  }
+}

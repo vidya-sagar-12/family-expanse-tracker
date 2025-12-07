@@ -1,0 +1,143 @@
+/* Wrapper same as login */
+.register-wrapper {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #e0e5ec;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Card same as login */
+.register-card {
+  width: 350px;
+  padding: 40px;
+  border-radius: 25px;
+  background: #e0e5ec;
+  box-shadow:
+    10px 10px 25px #b8b9be,
+    -10px -10px 25px #ffffff;
+  text-align: center;
+  animation: fadeIn 0.6s ease;
+}
+
+/* Top icon */
+.user-icon {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin: auto;
+  background: #e0e5ec;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28px;
+  box-shadow:
+    inset 6px 6px 12px #b8b9be,
+    inset -6px -6px 12px #ffffff;
+}
+
+h2 {
+  font-weight: 600;
+  margin-top: 20px;
+  color: #333;
+}
+
+.subtitle {
+  color: #777;
+  margin-bottom: 25px;
+}
+
+.error {
+  color: #ff4e4e;
+  margin-bottom: 10px;
+}
+
+/* Neumorphic input fields */
+.input-box {
+  position: relative;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.input-box input {
+  width: 73%;
+  padding: 14px 45px;
+  padding-left: 45px;
+  border-radius: 15px;
+  border: none;
+  outline: none;
+  font-size: 15px;
+  background: #e0e5ec;
+  box-shadow:
+    inset 6px 6px 12px #b8b9be,
+    inset -6px -6px 12px #ffffff;
+}
+
+/* Left icons inside input */
+.icon-left {
+  position: absolute;
+  top: 50%;
+  left: 15px;
+  transform: translateY(-50%);
+  color: #666;
+  font-size: 18px;
+}
+
+/* Right eye icon */
+.icon-right {
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #666;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+/* Register button */
+.register-btn {
+  width: 100%;
+  padding: 12px;
+  border-radius: 15px;
+  border: none;
+  background: #e0e5ec;
+  box-shadow:
+    6px 6px 12px #b8b9be,
+    -6px -6px 12px #ffffff;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 16px;
+  transition: 0.2s;
+}
+
+.register-btn:active {
+  box-shadow:
+    inset 6px 6px 12px #b8b9be,
+    inset -6px -6px 12px #ffffff;
+  transform: scale(0.97);
+}
+
+.signup-text {
+  margin-top: 25px;
+  font-size: 14px;
+  color: #666;
+}
+
+.signup-link {
+  color: #2d7df4;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+/* Animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
