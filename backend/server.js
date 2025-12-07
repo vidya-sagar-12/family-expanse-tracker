@@ -6,7 +6,7 @@ import connectDB from './config/db.js';
 import authRoutes from './routes/authRoutes.js';
 import memberRoutes from './routes/memberRoutes.js';
 import expenseRoutes from './routes/expenseRoutes.js';
-import billRoutes from "./routes/billRoutes.js";
+import billRoutes from "./routes/BillRoutes.js";
 import debtRoutes from "./routes/debtRoutes.js"
 import savingRoutes from "./routes/savingRoutes.js"
 import analyticsRoutes from "./routes/analyticsRoutes.js"
