@@ -96,6 +96,7 @@ const Login = () => {
         <p className="signup-text">
           Don't have an account? <Link className="signup-link" to='/register'>Sign up</Link>
         </p>
+        <h5 className="blinking-text">Please use default login credentials as displayed in the placeholder!!!</h5>
       </div>
     </div>
   );
