@@ -58,7 +58,7 @@ const Login = () => {
             <FontAwesomeIcon className="email-icon" icon="fa-solid fa-envelope" />
             <input
               type="email"
-              placeholder="Email address"
+              placeholder="Email address - john@gmail.com"
               value={email}
               required
               onChange={(e) => setEmail(e.target.value)}
@@ -70,7 +70,7 @@ const Login = () => {
             <FontAwesomeIcon className="password-icon" icon="fa-solid fa-key" />
             <input
               type={showPass ? "text" : "password"}
-              placeholder="Password"
+              placeholder="Password - 123456"
               value={password}
               required
               onChange={(e) => setPassword(e.target.value)}
